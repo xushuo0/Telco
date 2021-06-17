@@ -1,4 +1,7 @@
-# Telco
+# Telco Project
+
+## In this project, we try to understand the customer churn rate of a fictional telco company that provides home phone and Internet service to 7,043 customers in California in Q3. This is a modified Kaggle project that consists of more features than the original Kaggle challenge.
+
 ##
 Context
 A fictional telco company that provided home phone and Internet services to 7043 customers in California in Q3.
