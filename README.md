@@ -31,3 +31,13 @@ Customers who signed up for Fiber Optic Internet services have higher churn rate
 <p align="center">
 <img src="fiber.png" alt="Types of Internet Services" width="700">
   </p>
+
+## Predictive Model
+I use various supervised learning models to predict whether the customer will left the Telco comapany or not. The models include: K-Nearest Neighbors, Support Vector Classification, Logistic Regression, Random Forest, AdaBoost, and XGBoost. When evaluating the models, I focus on the Recall metrics. It is very important to identify the customers who actualy leave the company, and Recall exactly captures this focus. The XGBoost model has a recall of 53% and the model AUC is 0.84. 
+
+I use the Shapley Value (https://en.wikipedia.org/wiki/Shapley_value) to find the most important features of the model. I find that Contract type, Internet service type, and technical services are the most important features. I provide the business insights as a result of this analysis.
+
+<p align="center">
+<img src="shapley_value.png" alt="Shapley Value" width="700">
+  </p>
+
